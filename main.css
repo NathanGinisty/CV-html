@@ -157,9 +157,9 @@ body {
     margin: 0px auto;
     padding: 0px;
     
-    height: 1100px;
+    height: 1169px;
     width: auto;
-    max-width: 850px;
+    max-width: 826px;
     
     display: grid;
     grid-template-columns: 30% 70%;
@@ -173,9 +173,35 @@ body {
 
 main {
     background: rgb(245,245,245); /* temp */
-    padding: 16px 16px 16px 48px;
+    padding: 16px 36px 16px 36px;
 }
 
+.title-name {
+    font-size: 36px;
+    letter-spacing: 8px;
+}
+
+.title-job {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: rgb(100,100,100);
+}
+
+.block-separator {
+    background: rgb(220,220,220);
+    margin-top: 36px;
+    margin-bottom: 36px;
+    width: 80%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-case {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 /* ------------------------------------------------------------ */
 /* ------------------------- Left Bar ------------------------- */
@@ -183,7 +209,7 @@ main {
 
 .left-bar { /* section */
     background: rgb(220,220,220);
-    padding: 16px;
+    padding: 16px 24px 16px 24px;
 }
 
 .img-avatar {
@@ -194,10 +220,41 @@ main {
     display:block;
 }
 
+.img-avatar:hover {
+    transition-duration: 0.2s;
+    transform: scale(1.2);
+}
+
 .img-flag {
-    width: auto;
-    height: 50px;
+    width: 30%;
+    height: auto;
     border-radius: 0%
 }
 
+.img-logo {
+    width: 25%;
+    height: auto;
+    margin: 5px
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+.container-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.title-case-left {
+    text-align: center;
+    font-size: 26px;
+}
 
