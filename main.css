@@ -151,6 +151,7 @@ body {
     background: white;
     
     font-family: "cabin", sans-serif;
+    font-size: 18px;
     line-height: 1.3;
     
     box-sizing: content-box;
@@ -162,7 +163,7 @@ body {
     max-width: 826px;
     
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 1fr 2fr;
     column-gap: 0px;
 }
 
@@ -199,7 +200,7 @@ main {
 }
 
 .title-case {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -218,6 +219,9 @@ main {
     border-radius: 50%;
     margin: 10px auto;
     display:block;
+
+    position: relative;
+    z-index: 1;
 }
 
 .img-avatar:hover {
@@ -257,4 +261,5 @@ main {
     text-align: center;
     font-size: 26px;
 }
+
 
